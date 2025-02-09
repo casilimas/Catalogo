@@ -1,0 +1,66 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  background-color: rgb(245, 238, 238);
+  width: 100vw;  /* 100% del viewport width */
+  height: auto;  /* Ajustable según contenido */
+  margin: 0;
+  padding: 0;
+  color: rgb(252, 4, 140);
+  text-align: center;
+}
+
+
+.columna {
+  display: flex;
+  flex-direction: column; /* Apila los elementos verticalmente */
+  align-items: center; /* Centra los elementos horizontalmente */
+  gap: 10px; /* Espacio entre los elementos */
+  width: 100%; /* Asegura que ocupe todo el ancho disponible */
+}
+
+.contenido-uno,
+.contenido {
+  display: flex;
+  flex-direction: column; /* Asegura que la imagen y el botón estén en columna */
+  align-items: center; /* Centra los elementos dentro de cada contenido */
+  width: 100%; /* Opcional, dependiendo de tu diseño */
+}
+
+
+.invisible-button {
+  margin-top: 5px;
+  background-color: #1E90FF; /* Azul original */
+  border: 2px solid #87CEFA; /* Línea más fina y color más claro */
+  border-radius: 20px;
+  line-height: 25px;
+  display: flex; /* Habilita el alineado horizontal */
+
+  justify-content: center; /* Centra el contenido */
+
+  padding: 10px 20px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0px 4px 10px rgba(30, 144, 255, 0.5); /* Sombra externa */
+}
+
+.invisible-button:hover {
+  background-color: #B0E0E6; /* Azul más claro al pasar el mouse */
+  box-shadow: 0px 6px 15px rgba(176, 224, 230, 0.8); /* Sombra más suave */
+}
+
+.whatsapp{
+ 
+  
+  left: 30px;
+  
+}
+
